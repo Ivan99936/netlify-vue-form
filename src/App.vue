@@ -64,7 +64,7 @@ export default {
       fetch('/', {
           method: 'post',
           headers:{
-            'Contant-Type': 'application/x-www-urlencoded'
+            'Contant-Type': 'application/x-www-form-urlencoded'
           },
           body: this.encode({
             'form-name': 'contact',
